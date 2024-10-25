@@ -12,7 +12,7 @@ export default function Home() {
   // Function to fetch food data
   const loadFoodItems = async () => {
     try {
-      let response = await fetch("http://localhost:5000/api/auth/foodData", {
+      let response = await fetch("https://tomato-viveksinghfullstackfoodorderingapp.onrender.com/api/auth/foodData", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
